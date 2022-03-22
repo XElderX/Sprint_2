@@ -1,0 +1,396 @@
+* {
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-size: 62.5%;
+}
+html {
+    font-family: 'Dosis', sans-serif;
+}
+  body {
+    max-width: 100vw;
+    background: #fff;
+    
+  }
+  nav {
+    min-width: 375px;
+    max-width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    background-image: 
+      radial-gradient(at top left, #512E5F, transparent),
+      radial-gradient(at top right, #1A5276, transparent),
+      radial-gradient(at bottom left, #4A235A, transparent),
+      radial-gradient(at bottom right, #F9E79F, transparent);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    border: 1px solid #f6390d;
+}
+.nav-bar {
+    display:flex;
+    justify-content:center; 
+    font-size: 3rem;
+    font-family: 'Varela', sans-serif;
+} 
+.Biography,
+.Education,
+.Experience {
+    margin:1rem;
+    padding-bottom: 0.5rem;
+    background: rgba(137, 131, 140, 0.5);
+    width:8rem;
+    text-align: center;
+    backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(130, 109, 109, 0.18);
+}
+.Biography:hover,
+.Education:hover,
+.Experience:hover {
+    background-color: #f6390d;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Bio {
+    display: grid;
+    order:1;
+    font-size: 3rem;
+    min-width:254px;
+    max-width: 90vw;
+    margin: 1rem;
+    justify-content:flex-start;
+    height: fit-content;
+    grid-template-areas: 
+    "ft header"
+    "ft name"
+    "ft DOB"
+    "occ occ"
+    "edu edu"
+    "sh sh"
+    "addr addr"
+    "ph ph"
+    "ema ema";
+    grid-template-columns: 120px 200px;
+    background: rgba( 242, 214, 209, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.CV-ft {
+    grid-area: ft;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.bio_header {
+    grid-area:header;
+    margin-top: 1rem;
+    text-decoration:underline;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.name_surname {
+    grid-area:name;
+    text-align:left;
+    font-weight: 600;
+}
+.DateOfBirth {
+    grid-area:DOB;
+}
+.Occupation {
+    grid-area:occ;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+.education {
+    grid-area:edu;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.short_info {
+    grid-area:sh;
+    font-size: 2.5rem;
+    text-align: justify;
+    margin:1rem 1rem 0 1rem;
+    background-color: rgba(176, 169, 169, 0.2);
+}
+.address {
+    grid-area:addr;
+    font-size: 2.5rem;
+    font-weight: 700 ;
+    margin: 1rem 0 0 1rem;
+}
+#phone_no {
+    grid-area:ph;
+    margin: 1rem 0 0 1rem;
+}
+#email {
+    grid-area:ema;
+    margin: 0 0 1rem 1rem;
+}
+
+.Occupation img,
+.education img,
+.address img,
+#phone_no img,
+#email img {
+    text-align: left;
+    width: 20px;
+}
+.Skills {
+    order:2;
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 2fr);
+    gap:1rem;
+    height: fit-content;
+    font-size: 3rem;
+    min-width:254px;
+    max-width: 95vw;
+    margin: 2rem;
+    background: rgba( 217, 184, 208, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.skills_header{
+    grid-row:1/2;
+    grid-column: 1/4;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:5px 2px #F9E79F
+}
+.html,
+.css,
+.js,
+.react,
+.php,
+.cpp {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#html,
+#css,
+#js,
+#react,
+#php,
+#cpp {
+    width:50px;
+    height:50px;
+}
+footer {
+    margin-top: 3rem;
+    font-size: 3rem;
+    min-width:254px;
+    max-width: 95vw;
+    text-align: center;
+}
+.fa-brands {
+    font-size: 30px;
+    filter:invert(1);
+    margin:1rem 0.5rem 3rem 0.5rem;
+}
+footer>div:last-child {
+    bottom: 0;
+    margin-left: auto;
+    margin-left: auto;
+}
+h3,
+h4 {
+    font-size: 2rem;
+}
+a { 
+    text-decoration: none;
+    color: #F9E79F ;
+}
+@media screen and (min-width: 481px) and (max-width:798px){
+  
+    .nav-bar {
+        font-size: 4rem;
+    }
+    .Biography,
+    .Education,
+    .Experience {
+        margin:2rem;
+        width:13rem;
+    } 
+    .Bio {
+        min-width:454px;
+        margin: 1rem;
+        grid-template-columns: 180px 270px;
+    }
+    .CV-ft {
+        height: 150px;
+        width: 150px;
+        border-radius: 30%;
+    }
+    .bio_header {
+        margin-top: 1.5rem;
+        text-decoration:underline;
+        font-size: 3rem;
+    }
+    .name_surname {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .DateOfBirth {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .Occupation {
+        font-size: 2rem;
+    }
+    .education {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    .short_info {
+        font-size: 3rem;
+        max-width: 90vw;
+        text-align: justify;
+    }
+    .address,
+    #phone_no,
+    #email {
+        font-size: 3rem;
+    }
+    .Skills {
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: 1fr 2fr 2fr;
+        min-width:454px;
+        margin: 3rem;
+    }
+    .skills_header{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 3rem;
+    }
+    #html,
+    #css,
+    #js,
+    #react,
+    #php,
+    #cpp {
+        width:100px;
+        height:100px;
+    }
+    .fa-brands {
+        font-size: 60px;
+    }
+    h3,
+    h4 {
+        font-size: 3rem;
+    }
+
+}
+@media screen and (min-width: 799px){ 
+ 
+    article {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav-bar {
+        height: 100px;
+        font-size: 7rem;
+    }
+    .Biography,
+    .Education,
+    .Experience {
+        padding: 0 2rem 7rem 2rem;
+        margin-top:1.5rem;
+        width:20rem;
+    } 
+    .Bio {
+        min-width:40px;
+        margin: 2rem;
+        grid-template-columns: 150px 250px;   
+    }
+    .CV-ft {
+        height: 150px;
+        width: 150px;
+        border-radius: 30%;
+        margin-top: 2rem;
+    }
+    .bio_header {
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .name_surname {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .DateOfBirth {
+        font-size: 3rem;
+    }
+    .Occupation,
+    .education {
+        font-size: 2.5rem;
+    }
+    .short_info {
+        font-size: 3.5rem;
+        text-align: justify;
+        margin:1rem 1.5rem 0 1.5rem;
+    }
+    .address {  
+        font-size: 4rem;
+    }
+    #phone_no,
+    #email {
+        font-size: 3rem;
+        margin: 0 0 1rem 1rem;
+    }
+    .Occupation img,
+    .education img,
+    .address img,
+    #phone_no img,
+    #email img {
+        width: 30px;
+    }
+    .Skills {
+        background: rgba( 217, 184, 208, 0.2 ); 
+        padding: 11.5rem 0 11.5rem 0;
+    }
+    .skills_header{
+        text-align: center;
+        margin-top: 0;
+        font-size: 3rem;
+    }
+    .html,
+    .css,
+    .js,
+    .react,
+    .php,
+    .cpp {
+        margin-bottom: 2rem;
+    }
+    #html,
+    #css,
+    #js,
+    #react,
+    #php,
+    #cpp {
+        width:80px;
+        height:80px;
+    }
+    .fa-brands {
+        font-size: 70px;
+        margin:1.5rem 1rem 3rem 0.5rem;
+    }
+    h3, h4 {
+        font-size: 4rem;
+    }
+}  
+
