@@ -34,7 +34,7 @@ html {
     font-family: 'Varela', sans-serif;
 } 
 .Biography,
-.Education,
+.Educationn,
 .Experience {
     margin:1rem;
     padding-bottom: 0.5rem;
@@ -46,7 +46,7 @@ html {
     border: 1px solid rgba(130, 109, 109, 0.18);
 }
 .Biography:hover,
-.Education:hover,
+.Educationn:hover,
 .Experience:hover {
     background-color: #f6390d;
 }
@@ -221,7 +221,7 @@ a {
         font-size: 4rem;
     }
     .Biography,
-    .Education,
+    .Educationn,
     .Experience {
         margin:2rem;
         width:13rem;
@@ -307,7 +307,7 @@ a {
         font-size: 7rem;
     }
     .Biography,
-    .Education,
+    .Educationn,
     .Experience {
         padding: 0 2rem 7rem 2rem;
         margin-top:1.5rem;
