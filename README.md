@@ -37,11 +37,11 @@
     <br>
     <span> This page contains main bio information about me.    </span>
     <br>
-    <h4 align="center">Education (main page): </h3> 
+    <h4 align="center">Education: </h3> 
     <br>
     <span> This page contains  information about my education.    </span>
     <br>
-    <h4 align="center">experience (main page): </h3> 
+    <h4 align="center">Experience: </h3> 
     <br>
     <span> This page contains work experience .</span>
     <br>
