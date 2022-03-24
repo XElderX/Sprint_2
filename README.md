@@ -14,7 +14,8 @@
 <span>This project was made only by educational purpoise. </span>
 <br>
 <h3>How to lunch:</h3>
-<span> Just click link below </span><br>
+<span> Just click link below </span>
+<br>
 <span> Link to view the project: <a href="https://xelderx.github.io/Sprint_2/Web_CV_main.html">Click here to check it! </a> </span>
 <br>
 <hr>
