@@ -17,8 +17,10 @@
 <span> Link to view the project: <a href="https://xelderx.github.io/Sprint_2/Web_CV_main.html">Click here to check it! </a> </span>
 <br>
 ####
+<hr>
 <h3 align="center">Project Content: </h3> 
 ####
+<br>
 <span> project contain: </span>
 <br>
 <ul>
@@ -37,6 +39,8 @@
     </ol>
   <li> Have animated aurora background </li>
     </ul>
+    <hr>
+    
     <h4 align="center">Biography (main page): </h3> 
     <br>
     <span> This page contains main bio information about me.    </span>
@@ -50,7 +54,8 @@
     <span> This page contains work experience .</span>
     <br>
     #####
-    <span>Author: Dalius Kriaučiūnas.  </span>
+    <br>
+    <span>Author: Dalius Kriaučiūnas.  </span><br>
     #####
     
 
