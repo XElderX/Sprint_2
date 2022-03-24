@@ -1,8 +1,10 @@
 # Sprint_2
+<br>
+
 <h1 align="center"> Sprint assigment No.2 </h1>
-
+####
 <h3 align="center">Final Notes: </h3> 
-
+####
 <span>Sprint assigment number 2. </span>
 <br>
 <span>HTML and raw CSS only. </span>
@@ -11,10 +13,12 @@
 <br>
 <span>This project was made only by educational purpoise. </span>
 <br>
-<span> Link to the project: <a href="https://xelderx.github.io/Sprint_2/Web_CV_main.html">Click here to check it! </a> </span>
-<br>
-<h3 align="center">Project Content: </h3> 
 
+<span> Link to view the project: <a href="https://xelderx.github.io/Sprint_2/Web_CV_main.html">Click here to check it! </a> </span>
+<br>
+####
+<h3 align="center">Project Content: </h3> 
+####
 <span> project contain: </span>
 <br>
 <ul>
@@ -45,5 +49,8 @@
     <br>
     <span> This page contains work experience .</span>
     <br>
+    #####
+    <span>Author: Dalius Kriaučiūnas.  </span>
+    #####
     
 
