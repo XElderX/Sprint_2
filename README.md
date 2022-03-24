@@ -13,15 +13,15 @@
 <br>
 <span>This project was made only by educational purpoise. </span>
 <br>
-
+<h3>How to lunch:</h3>
+<span> Just click link below </span>
 <span> Link to view the project: <a href="https://xelderx.github.io/Sprint_2/Web_CV_main.html">Click here to check it! </a> </span>
 <br>
-
 <hr>
 <h3 align="center">Project Content and features: </h3> 
 ####
 <br>
-<span> project contain: </span>
+<span> Project contain: </span>
 <br>
 <ul>
   <li>Three pages</li>
@@ -31,15 +31,15 @@
     <li>Experience</li>
   </ol>
   <li>Mostly responsive design</li> 
-  <li>Layout used: Flex and grid </li> 
-  <li> supports three diffirent devices resoliution platforms>
+  <li>Layout was made by using: Flex and grid </li> 
+  <li> Web supports three diffirent RWD resoliution platforms>
     <ol>
       <li>mobile: <481px width resoliution</li>
       <li>tablet:  between  481px and 798px width resoliution</li>
       <li> laptops/bigger-screens >799px width resoliution</li>
     </ol>
   <li> Have animated aurora background feature </li>
-    <li> Have 2 column footer </li>
+    <li> Have footer with 2 column </li>
     <li> Used glassmorphism effect feature </li>
   <li> Have navigation bar </li>
     </ul>
