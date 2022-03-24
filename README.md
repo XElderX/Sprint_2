@@ -38,6 +38,8 @@
       <li> laptops/bigger-screens >799px width resoliution</li>
     </ol>
   <li> Have animated aurora background </li>
+    <li> Have 2 column footer </li>
+    <li> Used glassmorphism effect </li>
     </ul>
     <br>
     <h4 align="center">Biography (main page): </h3> 
