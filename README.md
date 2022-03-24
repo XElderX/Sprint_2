@@ -39,10 +39,7 @@
     </ol>
   <li> Have animated aurora background </li>
     </ul>
-    
-    #### 
     <br>
-    
     <h4 align="center">Biography (main page): </h3> 
     <br>
     <span> This page contains main bio information about me.    </span>
