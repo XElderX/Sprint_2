@@ -2,7 +2,7 @@
 <br>
 
 <h1 align="center"> Sprint assigment No.2 </h1>
-####
+<hr>
 <h3 align="center">Final Notes: </h3> 
 ####
 <span>Sprint assigment number 2. </span>
@@ -39,7 +39,9 @@
     </ol>
   <li> Have animated aurora background </li>
     </ul>
-    <hr>
+    
+    #### 
+    <br>
     
     <h4 align="center">Biography (main page): </h3> 
     <br>
@@ -55,7 +57,7 @@
     <br>
     #####
     <br>
-    <span>Author: Dalius Kriaučiūnas.  </span><br>
+    <span>Author: Dalius Kriaučiūnas.  </span> <br>
     #####
     
 
