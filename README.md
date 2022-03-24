@@ -31,6 +31,7 @@
     <li>Experience</li>
   </ol>
   <li>Mostly responsive design</li> 
+  <li>Layout used: Flex and grid </li> 
   <li> supports three diffirent devices resoliution platforms>
     <ol>
       <li>mobile: <481px width resoliution</li>
