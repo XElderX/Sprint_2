@@ -4,7 +4,7 @@
 <h1 align="center"> Sprint assigment No.2 </h1>
 <hr>
 <h3 align="center">Final Notes: </h3> 
-####
+
 <span>Sprint assigment number 2. </span>
 <br>
 <span>HTML and raw CSS only. </span>
@@ -16,7 +16,7 @@
 
 <span> Link to view the project: <a href="https://xelderx.github.io/Sprint_2/Web_CV_main.html">Click here to check it! </a> </span>
 <br>
-####
+
 <hr>
 <h3 align="center">Project Content: </h3> 
 ####
