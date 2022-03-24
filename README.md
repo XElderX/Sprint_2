@@ -18,7 +18,7 @@
 <br>
 
 <hr>
-<h3 align="center">Project Content: </h3> 
+<h3 align="center">Project Content and features: </h3> 
 ####
 <br>
 <span> project contain: </span>
@@ -37,9 +37,10 @@
       <li>tablet:  between  481px and 798px width resoliution</li>
       <li> laptops/bigger-screens >799px width resoliution</li>
     </ol>
-  <li> Have animated aurora background </li>
+  <li> Have animated aurora background feature </li>
     <li> Have 2 column footer </li>
-    <li> Used glassmorphism effect </li>
+    <li> Used glassmorphism effect feature </li>
+  <li> Have navigation bar </li>
     </ul>
     <br>
     <h4 align="center">Biography (main page): </h3> 
